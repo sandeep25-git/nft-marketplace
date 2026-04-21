@@ -9,7 +9,6 @@ export default function SellNFT () {
     const [fileURL, setFileURL] = useState(null);
     const ethers = require("ethers");
     const [message, updateMessage] = useState('');
-    const location = useLocation();
 
     async function disableButton() {
         const listButton = document.getElementById("list-button")

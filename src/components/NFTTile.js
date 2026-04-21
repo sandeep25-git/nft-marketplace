@@ -1,9 +1,4 @@
-import axie from "../tile.jpeg";
-import {
-    BrowserRouter as Router,
-    Link,
-  } from "react-router-dom";
-  import { GetIpfsUrlFromPinata } from "../utils";
+import { GetIpfsUrlFromPinata } from "../utils";
 
 function NFTTile (data) {
     const newTo = {

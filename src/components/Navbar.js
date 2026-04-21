@@ -82,7 +82,7 @@ function Navbar() {
     window.ethereum.on('accountsChanged', function(accounts) {
       window.location.replace(location.pathname);
     });
-  }, []);
+  }, [location.pathname]);
 
   return (
     <div className="">

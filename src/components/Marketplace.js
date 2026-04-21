@@ -86,7 +86,7 @@ export default function Marketplace() {
         if (!dataFetched) {
             getAllNFTs();
         }
-    }, []);
+    }, [dataFetched]);
 
     return (
         <div>
