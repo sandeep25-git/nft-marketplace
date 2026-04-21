@@ -1,3 +1,4 @@
+import { useParams } from "react-router-dom";
 import Navbar from "./Navbar";
 // import { useLocation, useParams } from 'react-router-dom';
 import MarketplaceJSON from "../Marketplace.json";
