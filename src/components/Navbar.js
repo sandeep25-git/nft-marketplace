@@ -6,7 +6,6 @@ import { getConnectedWallet, connectWallet } from '../utils';
 function Navbar() {
 
   const [connected, toggleConnect] = useState(false);
-  const location = useLocation();
   const [currAddress, updateAddress] = useState('0x');
 
   async function getAddress() {
